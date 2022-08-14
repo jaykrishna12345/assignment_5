@@ -1,8 +1,8 @@
 
-class Power:                                                                   #class created
+class Power:                                                                    #class created
 
-    def pow(self,x,n):                                                         #Method
-        if x==0 or x==1 or n==1:                                               #Conditions
+    def pow(self,x,n):                                                          #Method
+        if x==0 or x==1 or n==1:                                                #Conditions
             return x
         if x==-1:
             if n%2 ==0:
